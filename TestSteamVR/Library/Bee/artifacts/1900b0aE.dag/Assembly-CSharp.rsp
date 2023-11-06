@@ -327,7 +327,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"F:/PoP/Unity/TestSteamVR/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/USER/Documents/GitHub/KatVRpigGame/TestSteamVR/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/QFSW.QC.Demo.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/QFSW.QC.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/QFSW.QC.Editor.Tools.ref.dll"
