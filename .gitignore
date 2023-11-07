@@ -4796,3 +4796,17 @@ TestSteamVR/.vs/TestSteamVR/v16/.suo
 TestSteamVR/Library/ArtifactDB
 TestSteamVR/Library/Search/transactions.db
 TestSteamVR/Library/SourceAssetDB
+TestSteamVR/.vs/TestSteamVR/v16/.suo
+TestSteamVR/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+TestSteamVR/obj/Debug/QFSW.QC.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/SteamVR.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/SteamVR_Editor.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/SteamVR_Input_Editor.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/Unity.PlasticSCM.Editor.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/Unity.Timeline.Editor.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/UnityEditor.TestRunner.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/UnityEditor.UI.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/UnityEngine.TestRunner.csproj.AssemblyReference.cache
+TestSteamVR/obj/Debug/UnityEngine.UI.csproj.AssemblyReference.cache
