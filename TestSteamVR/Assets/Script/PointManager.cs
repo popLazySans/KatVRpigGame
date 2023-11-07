@@ -12,9 +12,11 @@ public class PointManager : MonoBehaviour
     public Slider energySlider;
     public Slider fatSlider;
     public Slider vitSlider;
+    public KATDevice kATDevice;
     // Start is called before the first frame update
     void Start()
     {
+        kATDevice = GameObject.Find("KAT_Body").GetComponent<KATDevice>();
         updateStartDatatoSlider();
         StartCoroutine(AFK());
     }
@@ -24,6 +26,7 @@ public class PointManager : MonoBehaviour
     {
         updateDatatoText();
         updateDatatoSlider();
+        kATDevice.multiply = 1.1f - (Fat / 100);
     }
 
     private void updateDatatoText()
@@ -50,7 +53,7 @@ public class PointManager : MonoBehaviour
         {
             yield return new WaitForSeconds(0.1f);
             Point -= 1;
-            if (Point == 0 || Fat == 100)
+            if (Point == 0)
             {
                 SceneManagers sceneManager = GameObject.FindGameObjectWithTag("SceneManager").GetComponent<SceneManagers>();
                 sceneManager.LoseActive();
