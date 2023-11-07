@@ -63,6 +63,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ae94032a9ad7a504ebfc1e692583093a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0368b1d388d9b5c4e9a5084126789704, type: 2}
     - target: {fileID: 919132149155446097, guid: ae94032a9ad7a504ebfc1e692583093a, type: 3}
       propertyPath: m_Name
       value: food_Rice Variant
