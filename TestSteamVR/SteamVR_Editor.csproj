@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.9f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
@@ -731,14 +731,15 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.OpenVR">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenVR.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR.csproj">
       <Project>{AA6C2FE4-7584-B55D-6292-83AA04D38081}</Project>
       <Name>SteamVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenVR.csproj">
+      <Project>{216DCBEA-123D-5B2F-272B-7E7963C9C5A2}</Project>
+      <Name>Unity.XR.OpenVR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
       <Project>{801140D8-810E-1113-5EDC-865618AF0E3A}</Project>
