@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.9f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\CustomSkeletonHelper.cs" />
@@ -186,6 +186,7 @@
     <Compile Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\BuggyBuddy.cs" />
     <Compile Include="Assets\SteamVR\Input\SteamVR_Input_References.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
+    <Compile Include="Assets\SteamVR\Plugins\openvr_api.cs" />
     <Compile Include="Assets\SteamVR\Input\SteamVR_Action_Vector3.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ItemPackage.cs" />
     <Compile Include="Assets\SteamVR\Input\SteamVR_Input_BindingFile.cs" />
@@ -900,15 +901,14 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.OpenVR">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenVR.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{C16FB4EA-1A8A-443C-4AED-C1FEF88E4715}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenVR.csproj">
-      <Project>{216DCBEA-123D-5B2F-272B-7E7963C9C5A2}</Project>
-      <Name>Unity.XR.OpenVR</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
       <Project>{F93503D9-8913-F11E-AAE8-5CFFD5A363D3}</Project>
