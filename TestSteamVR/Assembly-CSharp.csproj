@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\NightVisionTrigger.cs" />
     <Compile Include="Assets\Script\PortalSpawner.cs" />
+    <Compile Include="Assets\Script\EnemyMove.cs" />
     <Compile Include="Assets\Script\GrabFoodActived.cs" />
     <Compile Include="Assets\Script\Pointer.cs" />
     <Compile Include="Assets\Script\VRInputModule.cs" />
@@ -67,9 +68,11 @@
     <Compile Include="Assets\Script\NightVisionController.cs" />
     <Compile Include="Assets\AOSFogWar\Examples\csRevealerSpawner.cs" />
     <Compile Include="Assets\Script\RandomSpawnItems.cs" />
+    <Compile Include="Assets\Script\PlayerSpeedHandler.cs" />
     <Compile Include="Assets\Script\PointManager.cs" />
     <Compile Include="Assets\AOSFogWar\csFogWar.cs" />
     <Compile Include="Assets\KATVR SDK\Scripts\Singleton.cs" />
+    <Compile Include="Assets\Script\EnemyAttack.cs" />
     <Compile Include="Assets\AOSFogWar\Shadowcaster.cs" />
     <Compile Include="Assets\Script\ItemList.cs" />
     <Compile Include="Assets\Script\ItemDetail.cs" />

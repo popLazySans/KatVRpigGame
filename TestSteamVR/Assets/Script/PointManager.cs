@@ -12,13 +12,13 @@ public class PointManager : MonoBehaviour
     public Slider energySlider;
     public Slider fatSlider;
     public Slider vitSlider;
-    public KATDevice kATDevice;
+    public PlayerSpeedHandler playerSpeedHandler;
     // Start is called before the first frame update
     void Start()
     {
-        kATDevice = GameObject.Find("KAT_Body").GetComponent<KATDevice>();
         updateStartDatatoSlider();
         StartCoroutine(AFK());
+        playerSpeedHandler.speedDelay(Fat);
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class PointManager : MonoBehaviour
     {
         updateDatatoText();
         updateDatatoSlider();
-        kATDevice.multiply = 1.1f - (Fat / 100);
+       
     }
 
     private void updateDatatoText()
@@ -60,5 +60,16 @@ public class PointManager : MonoBehaviour
             }
         }
         
+    }
+    public void SetVitaminToZero()
+    {
+        Vitamin = 0;
+    }
+    public void OnPointChange(int energy,int fat,int vitamin)
+    {
+        Point += energy;
+        Fat += fat;
+        Vitamin += vitamin;
+        playerSpeedHandler.speedDelay(Fat);
     }
 }

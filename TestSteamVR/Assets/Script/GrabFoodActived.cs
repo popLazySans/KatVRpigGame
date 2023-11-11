@@ -44,7 +44,7 @@ public class GrabFoodActived : MonoBehaviour
     public void Eat()
     {
         pointManager = GameObject.FindGameObjectWithTag("PointManager").GetComponent<PointManager>();
-        pointManager.Point += gameObject.GetComponent<ItemDetail>().energy;
+        pointManager.OnPointChange(gameObject.GetComponent<ItemDetail>().energy, gameObject.GetComponent<ItemDetail>().fat, gameObject.GetComponent<ItemDetail>().vitamin);
         Destroy(gameObject);
     }
 }

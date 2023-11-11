@@ -10,6 +10,7 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     public TMP_Text winText;
     public string sceneName;
     SceneStateMachine stateMachine;
+    public PlayerSpeedHandler playerSpeedHandler;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,7 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     {
         if(winText != null)
             winText.text = "Win";
+        Debug.Log("Win");
     }
     public void TryAgain()
     {
@@ -35,6 +37,8 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     {
         if(winText != null)
             winText.text = "Lose";
+        playerSpeedHandler.stop();
+        Debug.Log("Lose");
     }
     public void clickToAnotherScene(string sceneName)
     {
