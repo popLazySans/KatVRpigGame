@@ -6,6 +6,7 @@ public class SceneStateMachine : MonoBehaviour
     [SerializeField] public int Scenenumber = 0;
     public List<GameObject> sceneGameObjects = new List<GameObject>();
     public LineRenderer pointer_LineRenderer;
+    public GameObject VRcanvasGameObject;
     public GameObject directionalLightGameObject;
     public GameObject lightGameObject;
     // Start is called before the first frame update
@@ -41,10 +42,12 @@ public class SceneStateMachine : MonoBehaviour
     {
         Scenenumber = 0;
         pointer_LineRenderer.enabled = true;
+        VRcanvasGameObject.SetActive(false);
     }
     public void toGameplay()
     {
         Scenenumber += 1;
+        VRcanvasGameObject.SetActive(true);
     }
     public void changeLight()
     {

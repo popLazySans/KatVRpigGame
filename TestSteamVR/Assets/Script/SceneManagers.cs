@@ -25,7 +25,7 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     public void WinActive()
     {
         if(winText != null)
-            winText.text = "Win";
+            //winText.text = "Win";
         Debug.Log("Win");
     }
     public void TryAgain()

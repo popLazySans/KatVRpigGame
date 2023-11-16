@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerSpeedHandler : MonoBehaviour
 {
-    private KATDevice kATDevice;
+    public KATDevice kATDevice;
     // Start is called before the first frame update
     void Start()
     {
