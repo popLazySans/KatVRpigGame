@@ -62,8 +62,9 @@
     <Compile Include="Assets\Script\GrabFoodActived.cs" />
     <Compile Include="Assets\Script\Pointer.cs" />
     <Compile Include="Assets\Script\VRInputModule.cs" />
-    <Compile Include="Assets\Script\PortalCollider.cs" />
+    <Compile Include="Assets\Script\BalanceBarColor.cs" />
     <Compile Include="Assets\KATVR SDK\Scripts\KATDevice_Walk.cs" />
+    <Compile Include="Assets\Script\PortalCollider.cs" />
     <Compile Include="Assets\KATVR SDK\Scripts\KATVR.cs" />
     <Compile Include="Assets\Script\ShowText.cs" />
     <Compile Include="Assets\Script\NightVisionController.cs" />

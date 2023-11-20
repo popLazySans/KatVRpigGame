@@ -19,7 +19,7 @@ public class PortalSpawner : MonoBehaviour
     void Update()
     {
         //if it is game.
-        if (timeManager.time == 200)
+        if (timeManager.time == 90)
         {
             portalObject.SetActive(true);
             showText.ShowSpawnPortal();

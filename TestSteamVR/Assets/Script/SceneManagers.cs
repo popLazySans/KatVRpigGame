@@ -10,11 +10,12 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     public string sceneName;
     SceneStateMachine stateMachine;
     public PlayerSpeedHandler playerSpeedHandler;
-    public ShowText showText;
+    private ShowText showText;
     // Start is called before the first frame update
     void Start()
     {
         stateMachine = GameObject.FindGameObjectWithTag("SceneManager").GetComponent<SceneStateMachine>();
+        showText = GameObject.FindGameObjectWithTag("ShowText").GetComponent<ShowText>();
     }
 
     // Update is called once per frame
@@ -30,6 +31,7 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     {
        // if (winText != null)
            // winText.text = "Please Balance Your Energy.";
+        showText.ShowTryAgainText();
     }
     public void LoseActive()
     {

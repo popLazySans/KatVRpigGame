@@ -6,7 +6,7 @@ public class EnemyMove : MonoBehaviour
 {
     public Vector3 PlayerPosition;
     public GameObject Player;
-    internal int speed = 1;
+    internal float speed = 0.7f;
     // Start is called before the first frame update
     void Start()
     {
