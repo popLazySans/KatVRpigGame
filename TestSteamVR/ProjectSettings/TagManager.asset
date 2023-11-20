@@ -9,6 +9,9 @@ TagManager:
   - Item
   - NightScene
   - NoonScene
+  - projectile
+  - FxTemporaire
+  - ShowText
   layers:
   - Default
   - TransparentFX

@@ -6,9 +6,11 @@ public class PortalSpawner : MonoBehaviour
 {
     public GameObject portalObject;
     private TimeCounter timeManager;
+    private ShowText showText;
     // Start is called before the first frame update
     void Start()
     {
+        showText = GameObject.FindGameObjectWithTag("ShowText").GetComponent<ShowText>();
         timeManager = GetComponent<TimeCounter>();
         portalObject.SetActive(false);
     }
@@ -20,9 +22,10 @@ public class PortalSpawner : MonoBehaviour
         if (timeManager.time == 200)
         {
             portalObject.SetActive(true);
+            showText.ShowSpawnPortal();
         }
 
         //test
-        portalObject.SetActive(true);
+        //portalObject.SetActive(true);
     }
 }

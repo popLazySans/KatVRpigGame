@@ -7,10 +7,10 @@ using UnityEngine.EventSystems;
 public class SceneManagers : MonoBehaviour,IPointerClickHandler
 {
     public PortalSpawner portalSpawner;
-    public TMP_Text winText;
     public string sceneName;
     SceneStateMachine stateMachine;
     public PlayerSpeedHandler playerSpeedHandler;
+    public ShowText showText;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,9 +24,7 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     }
     public void WinActive()
     {
-        if(winText != null)
-            //winText.text = "Win";
-        Debug.Log("Win");
+        showText.ShowWinText();
     }
     public void TryAgain()
     {
@@ -35,10 +33,8 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     }
     public void LoseActive()
     {
-        if(winText != null)
-            winText.text = "Lose";
+        showText.ShowLoseText();
         playerSpeedHandler.stop();
-        Debug.Log("Lose");
     }
     public void clickToAnotherScene(string sceneName)
     {
