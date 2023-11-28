@@ -5,9 +5,9 @@ using UnityEngine.UI;
 public class ItemDetail : MonoBehaviour
 {
     public string name,detail;
-    public int energy,fat,vitamin;
+    public int energy,fat,vitamin,vision;
     public Sprite image2d;
-    public ItemDetail(string Name, string Detail, int Energy, int Fat, int Vitamin,Sprite image)
+    public ItemDetail(string Name, string Detail, int Energy, int Fat, int Vitamin,int Vision,Sprite image)
     {
         name = Name;
         detail = Detail;
@@ -15,5 +15,6 @@ public class ItemDetail : MonoBehaviour
         fat = Fat;
         vitamin = Vitamin;
         image2d = image;
+        vision = Vision;
     }
 }

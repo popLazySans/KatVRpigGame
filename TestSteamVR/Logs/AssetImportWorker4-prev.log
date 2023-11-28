@@ -1,0 +1,566 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16204 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/USER/Documents/GitHub/KatVRpigGame/TestSteamVR
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+54452
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/KatVRpigGame/TestSteamVR
+C:/Users/USER/Documents/GitHub/KatVRpigGame/TestSteamVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 46.78 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/KatVRpigGame/TestSteamVR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005813 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 43.12 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (632ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (450ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005819 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1094ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2277 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (62.4 KB). Loaded Objects now: 2749.
+Memory consumption went from 96.5 MB to 96.5 MB.
+Total: 4.087900 ms (FindLiveObjects: 0.332400 ms CreateObjectMapping: 0.276700 ms MarkObjects: 3.365300 ms  DeleteObjects: 0.112100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198601.657067 seconds.
+  path: Assets/Picture/FoodImage/cabbage.png
+  artifactKey: Guid(b68468439ee67ea48b2dc8455ffd8e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/FoodImage/cabbage.png using Guid(b68468439ee67ea48b2dc8455ffd8e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f4b99377f190390dcbcb59867ba7bc') in 0.154980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.327656 seconds.
+  path: Assets/Prefab/Food/food_Cabbage Variant.prefab
+  artifactKey: Guid(20d87f778bd94b84f894e7191163c21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Food/food_Cabbage Variant.prefab using Guid(20d87f778bd94b84f894e7191163c21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+ -> (artifact id: '862b7ee18006c9bbc2a5c6acf3a67e28') in 0.086917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.976729 seconds.
+  path: Assets/Picture/FoodImage/carrot.png
+  artifactKey: Guid(077246a10f64a114a8868590e4a793b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/FoodImage/carrot.png using Guid(077246a10f64a114a8868590e4a793b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc9b158e1415bf86feeaca0a27f2ab1') in 0.033101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.502113 seconds.
+  path: Assets/Prefab/Food/food_Carrot Variant.prefab
+  artifactKey: Guid(d7dd59aa07ab1884a8aef907a71f1471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Food/food_Carrot Variant.prefab using Guid(d7dd59aa07ab1884a8aef907a71f1471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+ -> (artifact id: '073aca1ecd938774d3f0cd616e0dd9f3') in 0.023850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.697160 seconds.
+  path: Assets/Picture/FoodImage/egg.png
+  artifactKey: Guid(37493148702120a4497319b00a904c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/FoodImage/egg.png using Guid(37493148702120a4497319b00a904c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64590fd6d08ae82ab647e5328bf5278') in 0.037155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.688359 seconds.
+  path: Assets/Prefab/Food/food_FriedEgg Variant.prefab
+  artifactKey: Guid(48bbe1ffbe0edde4dbf0cba9fe87aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Food/food_FriedEgg Variant.prefab using Guid(48bbe1ffbe0edde4dbf0cba9fe87aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+ -> (artifact id: 'e07de8720cfb5c7f0700c6c232a3fb09') in 0.015274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.038986 seconds.
+  path: Assets/Picture/IMG_0253.png
+  artifactKey: Guid(66973f43d109bb24da462e137d009bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/IMG_0253.png using Guid(66973f43d109bb24da462e137d009bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d14eea9c32e783f8b2f1e9a97840c3') in 0.024982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.819348 seconds.
+  path: Assets/Picture/IMG_0253.png
+  artifactKey: Guid(66973f43d109bb24da462e137d009bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/IMG_0253.png using Guid(66973f43d109bb24da462e137d009bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b64666aa3837fe0bfd45d338cd399b') in 0.030935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.993627 seconds.
+  path: Assets/Picture/FoodImage/IMG_0253.png
+  artifactKey: Guid(75c14579086aac948aea8e52db38ef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/FoodImage/IMG_0253.png using Guid(75c14579086aac948aea8e52db38ef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd474102551f0f6156d0f7d69ec761fb8') in 0.023593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.677857 seconds.
+  path: Assets/Picture/FoodImage/IMG_0253.png
+  artifactKey: Guid(75c14579086aac948aea8e52db38ef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/FoodImage/IMG_0253.png using Guid(75c14579086aac948aea8e52db38ef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0007f19bcb8b1e922fc5153718035bdf') in 0.013985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.006262 seconds.
+  path: Assets/Picture/FoodImage/IMG_0253.png
+  artifactKey: Guid(75c14579086aac948aea8e52db38ef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/FoodImage/IMG_0253.png using Guid(75c14579086aac948aea8e52db38ef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a72687a7c46666930979374a4b93464') in 0.132456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.342610 seconds.
+  path: Assets/Prefab/Food/food_Mushroom Variant.prefab
+  artifactKey: Guid(5caa2b929d9aa8641a8d214bdfbfd772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Food/food_Mushroom Variant.prefab using Guid(5caa2b929d9aa8641a8d214bdfbfd772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+ -> (artifact id: 'fa757d662c78fdab7792812dd454bfa8') in 0.024566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.775713 seconds.
+  path: Assets/Picture/FoodImage/rice.png
+  artifactKey: Guid(b3ce6f7ab5207974f89f9d0aa4f0875a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/FoodImage/rice.png using Guid(b3ce6f7ab5207974f89f9d0aa4f0875a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c109cb61bfe6eac244d82920548555') in 0.034544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.715288 seconds.
+  path: Assets/Prefab/Food/food_Rice Variant.prefab
+  artifactKey: Guid(2f0794c6bbe73c24cab7cbbca1b19558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Food/food_Rice Variant.prefab using Guid(2f0794c6bbe73c24cab7cbbca1b19558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+ -> (artifact id: '4216a97439af2103484373c6b229885c') in 0.018278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.480151 seconds.
+  path: Assets/Picture/FoodImage/water.png
+  artifactKey: Guid(8a54dedb994e31841875165f335eddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/FoodImage/water.png using Guid(8a54dedb994e31841875165f335eddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41244614249ab713da81e7fe963195bc') in 0.040093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.425293 seconds.
+  path: Assets/Prefab/Food/food_Water Variant.prefab
+  artifactKey: Guid(5665d06ddb3d91544a0844d73a9158e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Food/food_Water Variant.prefab using Guid(5665d06ddb3d91544a0844d73a9158e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+ -> (artifact id: '17e2cad4a1473bac39c30a411c7097a6') in 0.024845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.479418 seconds.
+  path: Assets/Picture/Materials/PngItem_1106291.mat
+  artifactKey: Guid(430921253a32fe943a76b32c8cbac45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/Materials/PngItem_1106291.mat using Guid(430921253a32fe943a76b32c8cbac45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f77b37c47e3846992f7bf64a238da6') in 0.408931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.795729 seconds.
+  path: Assets/Picture/FoodImage/watermelon.png
+  artifactKey: Guid(895e7e35cb6fac949989c8c3c3ae1390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Picture/FoodImage/watermelon.png using Guid(895e7e35cb6fac949989c8c3c3ae1390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae6b7fd1a643b38020331c994afe59b') in 0.035185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.718084 seconds.
+  path: Assets/Prefab/Food/food_Watermelon Variant.prefab
+  artifactKey: Guid(8abd6c3c29fb03f4fa73db56bbb0cd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Food/food_Watermelon Variant.prefab using Guid(8abd6c3c29fb03f4fa73db56bbb0cd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+PointManager:.ctor ()
+GrabFoodActived:.ctor () (at Assets/Script/GrabFoodActived.cs:10)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Assets/Script/GrabFoodActived.cs line 10]
+
+ -> (artifact id: 'a0db47804f24efd77ed948baf09f2973') in 0.015728 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005849 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1133ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (29.8 KB). Loaded Objects now: 2801.
+Memory consumption went from 97.4 MB to 97.3 MB.
+Total: 4.634400 ms (FindLiveObjects: 0.246600 ms CreateObjectMapping: 0.209100 ms MarkObjects: 4.094400 ms  DeleteObjects: 0.082100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005742 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.31 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (29.9 KB). Loaded Objects now: 2805.
+Memory consumption went from 97.4 MB to 97.3 MB.
+Total: 3.922500 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.139300 ms MarkObjects: 3.492800 ms  DeleteObjects: 0.062000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

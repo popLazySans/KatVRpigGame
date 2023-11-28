@@ -71,14 +71,17 @@
     <Compile Include="Assets\Script\ShowText.cs" />
     <Compile Include="Assets\Script\NightVisionController.cs" />
     <Compile Include="Assets\AOSFogWar\Examples\csRevealerSpawner.cs" />
+    <Compile Include="Assets\Script\GrabBook.cs" />
     <Compile Include="Assets\Script\RandomSpawnItems.cs" />
     <Compile Include="Assets\Script\PlayerSpeedHandler.cs" />
     <Compile Include="Assets\Script\PointManager.cs" />
     <Compile Include="Assets\AOSFogWar\csFogWar.cs" />
+    <Compile Include="Assets\Script\MushroomEffect.cs" />
     <Compile Include="Assets\KATVR SDK\Scripts\Singleton.cs" />
     <Compile Include="Assets\Script\EnemyAttack.cs" />
     <Compile Include="Assets\AOSFogWar\Shadowcaster.cs" />
     <Compile Include="Assets\Script\ItemList.cs" />
+    <Compile Include="Assets\Script\ShowBookData.cs" />
     <Compile Include="Assets\Script\ItemDetail.cs" />
     <Compile Include="Assets\Script\EnemySpawnNotify.cs" />
     <Compile Include="Assets\Script\TimeCounter.cs" />
@@ -89,9 +92,7 @@
     <Compile Include="Assets\Script\UpdateDistancePath.cs" />
     <Compile Include="Assets\Script\SceneStateMachine.cs" />
     <Compile Include="Assets\Script\SceneManagers.cs" />
-    <Compile Include="Assets\Script\MushroomEffect.cs" />
-    <Compile Include="Assets\Script\GrabBook.cs" />
-    <Compile Include="Assets\Script\ShowBookData.cs" />
+    <Compile Include="Assets\Script\LightUpdate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

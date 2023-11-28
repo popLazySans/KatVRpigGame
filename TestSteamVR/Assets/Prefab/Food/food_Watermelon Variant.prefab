@@ -128,6 +128,7 @@ MonoBehaviour:
   energy: 500
   fat: 0
   vitamin: 10
+  vision: 1
   image2d: {fileID: 21300000, guid: 895e7e35cb6fac949989c8c3c3ae1390, type: 3}
 --- !u!114 &1017121551
 MonoBehaviour:
