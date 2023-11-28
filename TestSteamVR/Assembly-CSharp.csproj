@@ -66,6 +66,8 @@
     <Compile Include="Assets\KATVR SDK\Scripts\KATDevice_Walk.cs" />
     <Compile Include="Assets\Script\PortalCollider.cs" />
     <Compile Include="Assets\KATVR SDK\Scripts\KATVR.cs" />
+    <Compile Include="Assets\Script\DistanceToPoint.cs" />
+    <Compile Include="Assets\Script\ScoreSave.cs" />
     <Compile Include="Assets\Script\ShowText.cs" />
     <Compile Include="Assets\Script\NightVisionController.cs" />
     <Compile Include="Assets\AOSFogWar\Examples\csRevealerSpawner.cs" />
@@ -84,8 +86,12 @@
     <Compile Include="Assets\AOSFogWar\Examples\csFogVisibilityAgent.cs" />
     <Compile Include="Assets\Script\AdditionalSceneActive.cs" />
     <Compile Include="Assets\KATVR SDK\Scripts\KATDevice.cs" />
+    <Compile Include="Assets\Script\UpdateDistancePath.cs" />
     <Compile Include="Assets\Script\SceneStateMachine.cs" />
     <Compile Include="Assets\Script\SceneManagers.cs" />
+    <Compile Include="Assets\Script\MushroomEffect.cs" />
+    <Compile Include="Assets\Script\GrabBook.cs" />
+    <Compile Include="Assets\Script\ShowBookData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

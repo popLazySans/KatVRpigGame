@@ -5,6 +5,7 @@ using UnityEngine;
 public class PortalCollider : MonoBehaviour
 {
     public bool isLevel;
+    public PointManager pointManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,13 +29,14 @@ public class PortalCollider : MonoBehaviour
             if(isLevel == false)
                 sceneManager.clickToAnotherScene("Play");
             else{
-                PointManager pointManager = GameObject.FindGameObjectWithTag("PointManager").GetComponent<PointManager>();
+                //Remove GameObjectFindWithTag
+                //PointManager pointManager = GameObject.FindGameObjectWithTag("PointManager").GetComponent<PointManager>();
                 if (pointManager != null)
                     {
                         if (pointManager.Point >= 1000 && pointManager.Point <= 3000)
                         {
-                        sceneManager.WinActive();
-                        sceneManager.clickToAnotherScene("Play");
+                        sceneManager.PassActive();
+                        sceneManager.clickToAnotherScene("Rest");
                         Destroy(this.gameObject);
                     }
                     else

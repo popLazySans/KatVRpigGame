@@ -128,6 +128,7 @@ MonoBehaviour:
   energy: 100
   fat: -20
   vitamin: 0
+  image2d: {fileID: 21300000, guid: 8a54dedb994e31841875165f335eddb6, type: 3}
 --- !u!114 &1997900762
 MonoBehaviour:
   m_ObjectHideFlags: 0

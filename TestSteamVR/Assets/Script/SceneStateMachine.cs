@@ -9,9 +9,13 @@ public class SceneStateMachine : MonoBehaviour
     public GameObject VRcanvasGameObject;
     public GameObject directionalLightGameObject;
     public GameObject lightGameObject;
+    private GameObject distancePathObject;
+    private Camera camera;
     // Start is called before the first frame update
     void Start()
     {
+        distancePathObject = GameObject.FindGameObjectWithTag("DistancePath");
+        camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         ChangeScene("Menu");
     }
 
@@ -35,7 +39,11 @@ public class SceneStateMachine : MonoBehaviour
         {
             toGameplay();
         }
-        changeLight();
+        else if (sceneName == "Rest")
+        {
+            toRest();
+        }
+        changeEnvironment();
         sceneGameObjects[Scenenumber].SetActive(true);
     }
     public void toMainMenu()
@@ -43,25 +51,48 @@ public class SceneStateMachine : MonoBehaviour
         Scenenumber = 0;
         pointer_LineRenderer.enabled = true;
         VRcanvasGameObject.SetActive(false);
+        distancePathObject.SetActive(false);
+        directionalLightGameObject.SetActive(false);
     }
     public void toGameplay()
     {
-        Scenenumber += 1;
-        VRcanvasGameObject.SetActive(true);
+        if (Scenenumber <= sceneGameObjects.Count)
+        {
+            Scenenumber += 1;
+            VRcanvasGameObject.SetActive(true);
+            if (Scenenumber > 1)
+            {
+                distancePathObject.SetActive(true);
+            }
+        }
+        else
+        {
+            toMainMenu();
+        }
     }
-    public void changeLight()
+    public void toRest()
+    {
+        Scenenumber += 1;
+        VRcanvasGameObject.SetActive(false);
+        distancePathObject.SetActive(false);
+        directionalLightGameObject.SetActive(true);
+    }
+    public void changeEnvironment()
     {
         if(sceneGameObjects[Scenenumber].tag == "NoonScene")
         {
-            RenderSettings.ambientIntensity = 1.25f;
-            lightGameObject.SetActive(false);
-            directionalLightGameObject.SetActive(true);
+            changeLight(1.25f,false,true,new Color32(150,239,255,255));
         }
         else if (sceneGameObjects[Scenenumber].tag == "NightScene")
         {
-            RenderSettings.ambientIntensity = 0f;
-            lightGameObject.SetActive(true);
-            directionalLightGameObject.SetActive(false);
+            changeLight(0f, true, false, new Color32(15, 15, 15, 255));
         }
+    }
+    private void changeLight(float ambientIntensityValue,bool hasPointLight,bool hasSun,Color32 color)
+    {
+        RenderSettings.ambientIntensity = ambientIntensityValue;
+        lightGameObject.SetActive(hasPointLight);
+        directionalLightGameObject.SetActive(hasSun);
+        camera.backgroundColor = color;
     }
 }

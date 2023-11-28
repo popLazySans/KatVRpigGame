@@ -12,6 +12,8 @@ TagManager:
   - projectile
   - FxTemporaire
   - ShowText
+  - DistancePath
+  - Saver
   layers:
   - Default
   - TransparentFX

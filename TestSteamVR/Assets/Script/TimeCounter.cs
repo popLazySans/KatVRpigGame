@@ -12,9 +12,12 @@ public class TimeCounter : MonoBehaviour
     void Start()
     {
         timeSlider.maxValue = time;
+      
+    }
+    private void OnEnable()
+    {
         StartCoroutine(timeCount());
     }
-
     // Update is called once per frame
     void Update()
     {

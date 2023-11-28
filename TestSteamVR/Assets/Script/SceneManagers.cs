@@ -11,11 +11,15 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     SceneStateMachine stateMachine;
     public PlayerSpeedHandler playerSpeedHandler;
     private ShowText showText;
+    private DistanceToPoint distanceToPoint;
+    private ScoreSave saveManager;
     // Start is called before the first frame update
     void Start()
     {
         stateMachine = GameObject.FindGameObjectWithTag("SceneManager").GetComponent<SceneStateMachine>();
         showText = GameObject.FindGameObjectWithTag("ShowText").GetComponent<ShowText>();
+        distanceToPoint = GameObject.FindGameObjectWithTag("DistancePath").GetComponent<DistanceToPoint>();
+        saveManager = GameObject.FindGameObjectWithTag("Saver").GetComponent<ScoreSave>();
     }
 
     // Update is called once per frame
@@ -23,9 +27,18 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     {
         
     }
-    public void WinActive()
+    public void PassActive()
     {
-        showText.ShowWinText();
+        distanceToPoint.distToPoint(stateMachine.Scenenumber/2);
+        if (stateMachine.Scenenumber >= stateMachine.sceneGameObjects.Count)
+        {
+            saveManager.SaveCurrentScoreToList(distanceToPoint.currentPoint);
+            showText.ShowWinText(distanceToPoint.distance, stateMachine.Scenenumber / 2, distanceToPoint.prevPoint, distanceToPoint.currentPoint);
+        }
+        else
+        {
+            showText.ShowPassText (distanceToPoint.distance,stateMachine.Scenenumber/2,distanceToPoint.prevPoint,distanceToPoint.currentPoint);
+        }
     }
     public void TryAgain()
     {
@@ -35,7 +48,9 @@ public class SceneManagers : MonoBehaviour,IPointerClickHandler
     }
     public void LoseActive()
     {
-        showText.ShowLoseText();
+        distanceToPoint.distToPoint(stateMachine.Scenenumber/2);
+        showText.ShowLoseText(distanceToPoint.distance, stateMachine.Scenenumber / 2, distanceToPoint.prevPoint, distanceToPoint.currentPoint);
+        distanceToPoint.resetDistance();
         playerSpeedHandler.stop();
     }
     public void clickToAnotherScene(string sceneName)

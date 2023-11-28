@@ -13,14 +13,19 @@ public class PointManager : MonoBehaviour
     public Slider fatSlider;
     public Slider vitSlider;
     public PlayerSpeedHandler playerSpeedHandler;
+    public bool isDesert;
     // Start is called before the first frame update
     void Start()
     {
+       
+    }
+    private void OnEnable()
+    {
         updateStartDatatoSlider();
         StartCoroutine(AFK());
+        StartCoroutine(TransReduced());
         playerSpeedHandler.speedDelay(Fat);
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -38,7 +43,7 @@ public class PointManager : MonoBehaviour
     {
         energySlider.maxValue = Point*2;
         fatSlider.maxValue = 100;
-        vitSlider.maxValue = 100;
+        vitSlider.maxValue = 40;
     }
     private void updateDatatoSlider()
     {
@@ -51,7 +56,10 @@ public class PointManager : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(0.05f);
+            if (isDesert)
+                yield return new WaitForSeconds(0.01f);
+            else
+                yield return new WaitForSeconds(0.05f);
             Point -= 1;
             if (Point == 0)
             {
@@ -60,6 +68,17 @@ public class PointManager : MonoBehaviour
             }
         }
         
+    }
+    IEnumerator TransReduced()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            if(Fat > 0)
+            {
+                Fat -= 1;
+            }
+        }
     }
     public void SetVitaminToZero()
     {
